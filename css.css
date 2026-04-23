@@ -1,0 +1,58 @@
+.header {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+  color: #2c3e50;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #2c3e50;
+}
+
+.content-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  min-height: 100%;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.BlueBeans {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.BlueBeansLogo {
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 12px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
