@@ -114,6 +114,17 @@ footer {
   align-items: start;
 }
 
+.application-grid {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.application-grid aside,
+.application-grid article {
+  padding: 1.5rem;
+}
+
 .grid-2.reverse {
   grid-template-columns: 1fr 2fr;
 }
